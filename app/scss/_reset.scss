@@ -5,6 +5,24 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
+body,
+h1,h2,h3,h4,h5,h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd{
+    margin: 0;
+}
+
+ul[class]{
+    list-style: none;
+}
+
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,8 +72,10 @@ a {
     margin:0;
     padding:0;
     font-size:100%;
-    vertical-align:baseline;
+    
     background:transparent;
+    display: block;
+    text-decoration: none;
 }
 
 /* change colours to suit your needs */
