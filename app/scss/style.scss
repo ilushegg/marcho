@@ -21,15 +21,15 @@
     
   }
   &__list-link{
-    padding-bottom: 2px;
+    padding: 0 2px 1px;
     color: $title-color;
     transition: all .3s;
     text-decoration: none;
-    @extend %quicksand-400;
+    @extend %roboto-400;
     &:hover{
       color: $accent-color;
       border-bottom: 1px solid $accent-color;
-      @extend %quicksand-500;
+      @extend %roboto-700;
     }
   }
   &__list-link--active{
@@ -37,7 +37,7 @@
     border-bottom: 1px solid $accent-color;
     text-transform: uppercase;
     text-decoration: none;
-    @extend %quicksand-500;
+    @extend %roboto-700;
   }
 }
 
