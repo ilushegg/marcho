@@ -21,6 +21,7 @@
     "imagemin": "^8.0.1",
     "jquery": "^3.6.0",
     "node-sass": "^7.0.1",
+    "rateyo": "^2.3.2",
     "sass": "^1.49.7",
     "slick-carousel": "^1.8.1"
   }
