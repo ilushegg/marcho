@@ -117,6 +117,7 @@ footer{
       }
     }
   }
+
   &__title{
     color: $title-color;
     @extend %roboto-400;
@@ -168,6 +169,19 @@ footer{
     margin-left: 25px;
     vertical-align: middle
   }
+}
+
+.top{
+&__container{
+  max-width: 1700px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $bg;
+  background-position: top center;
+  padding: 120px 0 130px;
+  text-align: center;
+}
 }
 
 .top-slider{
@@ -707,6 +721,58 @@ footer{
 
 }
 
+.modal{
+  padding-top: 100px;
+  max-width: 670px;
+  margin: 0 auto 115px;
+  &__links{
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  &__link{
+    
+    color: #909090;
+    font-size: 22px;
+    @extend %roboto-400;
+    text-transform: uppercase;
+    margin: 0 30px;
+  }
+  &__link--active{
+    color: $accent-color;
+  }
+  &__label{
+    display: block;
+    margin-bottom: 30px;
+  }
+  &__input{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: $bg;
+    margin-top: 4px;
+    height: 60px;
+    padding: 0 15px;
+  }
+  &__btn{
+    display: block;
+    background-color: $title-color;
+    text-transform: uppercase;
+    color: #fff;
+    @extend %roboto-400;
+    padding: 14px 0;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+  &__error{
+    margin-top: 12px;
+    color: $accent-color;
+    display: inline-block;
+  }
+}
 
 
 
